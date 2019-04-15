@@ -16,6 +16,11 @@
            <router-link to="/news">新闻</router-link>
            <router-link to="/about">关于</router-link>
      </p>
+     <hr>
+     <router-link to="/">Home</router-link>
+     <router-link to="/player/1">库里</router-link>
+     <router-link to="/player/2">哈登</router-link>
+     <hr>
     <router-view/>
   </div>
 </template>

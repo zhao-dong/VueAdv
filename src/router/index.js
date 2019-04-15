@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import About from '@/components/About'
 import News from '@/components/News'
+import Player from '@/components/Player'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
         path: '/news',
         name: 'News',
         component: News
+    },
+    {
+        path: '/player/:uid',
+        name: 'Player',
+        component: Player
     }
   ]
 })
